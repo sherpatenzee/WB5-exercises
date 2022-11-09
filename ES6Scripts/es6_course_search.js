@@ -42,7 +42,7 @@ console.log(a1);
 let a2 = whatIsTitleOfPROJ400();
 console.log(a2);
 
-let a3 = whatCoursesUnder50();
+let a3 = whatarecoursesunder50();
 console.log(a3);
 
 
@@ -60,12 +60,12 @@ return theCourse.Title;
 }
 
 
+
 function whatarecoursesunder50(){
   let result;
   let thecourses = courses.filter(under50);
-  return theCourses;
+  return thecourses;
 }
-
 
 function prog200(value){
   return(value.CourseId =="PROG200")
